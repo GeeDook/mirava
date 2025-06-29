@@ -89,7 +89,7 @@
 
 اگر از این پروژه خوشت اومده و دوست داری ازم حمایت کنی:
 
-[Coffee]([https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/لینک_کافی](https://www.coffeete.ir/geedook))
+[Coffee]((https://www.coffeete.ir/geedook))
 
 
 ---
