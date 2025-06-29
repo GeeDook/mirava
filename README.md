@@ -77,5 +77,23 @@
 اگر فکر می‌کنی می‌تونی یه میرور معرفی کنی یا حتی خودت راه بندازی، خیلی خوشحال می‌شیم در این پروژه شریک شی. 
 
 ---
+## 📢 شبکه‌های اجتماعی
+
+- 🔗 [توییتر من](https://x.com/geedook13)
+- 📣 [کانال تلگرام](https://t.me/shayangeedook)
+
+
+---
+
+## ☕ حمایت مالی
+
+اگر از این پروژه خوشت اومده و دوست داری ازم حمایت کنی:
+
+[Coffee]([https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/لینک_کافی](https://www.coffeete.ir/geedook))
+
+
+---
+
+با تشکر از حمایت‌هاتون! 🙏
 
 با تشکر از آرمان طاهری [ArmanTaheriGhaleTaki](https://github.com/ArmanTaheriGhaleTaki) بابت چندین لینک میرور
