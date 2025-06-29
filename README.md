@@ -89,7 +89,7 @@
 
 اگر از این پروژه خوشت اومده و دوست داری ازم حمایت کنی:
 
-[Coffee]((https://www.coffeete.ir/geedook))
+[Coffee](https://www.coffeete.ir/geedook)
 
 
 ---
