@@ -1,0 +1,63 @@
+mirrors:
+  - name: Iranrepo
+    url: https://iranrepo.ir/repo
+    description: A local mirror providing various Linux package repositories inside Iran.
+    packages:
+      - Debian
+      - Ubuntu
+      - Arch Linux
+      - PyPI
+
+  - name: KubarCloud
+    url: https://mirrors.kubarcloud.com/
+    description: Public software mirror hosted by Kubar Cloud, with wide package coverage.
+    packages:
+      - Alpine
+      - Arch Linux
+      - CentOS
+      - Debian
+      - Ubuntu
+      - PyPI
+      - npm
+
+  - name: Shatel
+    url: https://mirrors.shatel.ir/
+    description: Official mirror provided by the Iranian ISP Shatel.
+    packages:
+      - Ubuntu
+      - Debian
+      - CentOS
+      - Arch Linux
+      - PyPI
+      - Alpine
+
+  - name: ITO (Information Technology Organization)
+    url: https://repo-portal.ito.gov.ir/
+    description: Government-backed repository portal by the Information Technology Organization of Iran.
+    packages:
+      - Debian
+      - Ubuntu
+      - Arch Linux
+      - PyPI
+      - Docker Registry
+
+  - name: Jamko
+    url: https://www.jamko.ir/
+    description: Public software mirror service for various Linux and developer ecosystems.
+    packages:
+      - Debian
+      - Ubuntu
+      - Arch Linux
+      - Composer
+      - PyPI
+
+  - name: Runflare
+    url: https://runflare.com/mirrors/
+    description: High-speed domestic mirror service for popular developer tools and package managers.
+    packages:
+      - Alpine
+      - Ubuntu
+      - Debian
+      - Arch Linux
+      - PyPI
+      - Homebrew
