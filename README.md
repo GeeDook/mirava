@@ -91,9 +91,9 @@
 
 [Coffee](https://www.coffeete.ir/geedook)
 
+با تشکر از حمایت‌هاتون!
 
 ---
 
-با تشکر از حمایت‌هاتون! 🙏
 
 با تشکر از آرمان طاهری [ArmanTaheriGhaleTaki](https://github.com/ArmanTaheriGhaleTaki) بابت چندین لینک میرور
