@@ -61,9 +61,10 @@ mirrors:
       - Arch Linux
       - PyPI
       - Homebrew
-  - name: Runflare
+  - name: HamDocker
     url: https://hub.hamdocker.ir
     description: Docker containers without sanctions
-    
+    packages:
+      - Docker Registry
 
   
