@@ -1,96 +1,64 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Requirements: yq, curl, dig or getent
+MIRROR_FILE="./mirrors_list.yaml"
 
-MIRROR_FILE="mirrors_list.yaml"
+declare -A PACKAGE_PATHS=(
+  ["Ubuntu"]="ubuntu"
+  ["Debian"]="debian"
+  ["Arch Linux"]="archlinux"
+  ["PyPI"]="simple"
+  ["npm"]="npm"
+  ["CentOS"]="centos"
+  ["Alpine"]="alpine"
+  ["Composer"]="packages.json"
+  ["Docker Registry"]="v2/"
+  ["Homebrew"]="brew"
+)
 
-# Check dependencies
-if ! command -v yq &>/dev/null; then
-  echo "Error: 'yq' is not installed."
-  exit 1
-fi
-if ! command -v curl &>/dev/null; then
-  echo "Error: 'curl' is not installed."
-  exit 1
-fi
-
-# Check for DNS resolver command
-if command -v dig &>/dev/null; then
-  DNS_CMD="dig +short"
-elif command -v getent &>/dev/null; then
-  DNS_CMD="getent hosts"
-else
-  echo "Error: neither 'dig' nor 'getent' found for DNS resolution."
-  exit 1
-fi
-
-# Get number of mirrors in the YAML file
-mirror_count=$(yq e '.mirrors | length' "$MIRROR_FILE")
-
-# Function to check a single mirror
-check_mirror() {
-  local idx=$1
-  local name url domain ip http_status reachable
-
-  # Extract mirror name and URL from the YAML file
-  name=$(yq e ".mirrors[$idx].name" "$MIRROR_FILE")
-  url=$(yq e ".mirrors[$idx].url" "$MIRROR_FILE")
-
-  # Extract domain from URL for DNS resolution
-  domain=$(echo "$url" | awk -F/ '{print $3}')
-
-  # Resolve IP address using dig or getent
-  if [[ $DNS_CMD == "dig +short" ]]; then
-    ip=$($DNS_CMD "$domain" | head -n1)
-  else
-    ip=$($DNS_CMD "$domain" | awk '{print $1}' | head -n1)
-  fi
-
-  # If IP is empty, mark as unavailable
-  if [[ -z "$ip" ]]; then
-    ip="Unavailable"
-  fi
-
-  # Try HTTP request to get status code (with 10 seconds timeout)
-  http_status=$(curl -sL --max-time 10 -o /dev/null -w "%{http_code}" "$url") || http_status="000"
-
-  # If initial curl fails, retry with --insecure to skip SSL certificate errors
-  if [[ "$http_status" == "000" ]]; then
-    http_status=$(curl -sL --insecure --max-time 10 -o /dev/null -w "%{http_code}" "$url") || http_status="000"
-  fi
-
-  # Determine reachability based on HTTP status
-  if [[ "$http_status" == "000" ]]; then
-    reachable="Unreachable or HTTP error"
-  else
-    reachable="Reachable (HTTP $http_status)"
-  fi
-
-  # Print results (suitable for Persian terminals, no emojis)
-  echo "Mirror Name: $name"
-  echo "URL: $url"
-  echo "IP: $ip"
-  echo "Status: $reachable"
-  echo "-----------------------------"
+function check_url() {
+  local url=$1
+  status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url")
+  echo "$status"
 }
 
-export -f check_mirror
-export MIRROR_FILE
-export DNS_CMD
-
-# Run mirror checks in parallel, max 5 at a time for speed
-pids=()
-for ((i=0; i<mirror_count; i++)); do
-  check_mirror "$i" &
-  pids+=($!)
-  if (( ${#pids[@]} >= 5 )); then
-    wait "${pids[0]}"
-    pids=("${pids[@]:1}")
+function check_docker_registry() {
+  local url=$1
+  # Docker Registry requires a GET to /v2/ and must respond with 200 or 401
+  status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url/v2/")
+  if [[ "$status" == "200" || "$status" == "401" ]]; then
+    echo "✅ Docker Registry OK ($status)"
+  else
+    echo "❌ Docker Registry Failed ($status)"
   fi
+}
+
+for idx in $(seq 0 $(yq e '.mirrors | length - 1' "$MIRROR_FILE")); do
+  name=$(yq e ".mirrors[$idx].name" "$MIRROR_FILE")
+  base_url=$(yq e ".mirrors[$idx].url" "$MIRROR_FILE")
+  echo -e "\n🔍 Checking mirror: $name"
+  echo "URL: $base_url"
+
+  package_count=$(yq e ".mirrors[$idx].packages | length" "$MIRROR_FILE")
+
+  for j in $(seq 0 $((package_count - 1))); do
+    package=$(yq e ".mirrors[$idx].packages[$j]" "$MIRROR_FILE")
+    path=${PACKAGE_PATHS[$package]:-}
+
+    if [[ "$package" == "Docker Registry" ]]; then
+      check_docker_registry "$base_url"
+    elif [[ -n "$path" ]]; then
+      full_url="$base_url/$path"
+      status=$(check_url "$full_url")
+      if [[ "$status" == "200" || "$status" == "301" || "$status" == "302" ]]; then
+        echo "✅ $package -> $full_url ($status)"
+      else
+        echo "❌ $package -> $full_url ($status)"
+      fi
+    else
+      echo "⚠️ Unknown package type: $package"
+    fi
+  done
+
+  echo "----------------------------"
 done
-
-# Wait for any remaining jobs to finish
-wait
-
-exit 0
