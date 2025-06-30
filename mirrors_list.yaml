@@ -61,3 +61,20 @@ mirrors:
       - Arch Linux
       - PyPI
       - Homebrew
+
+  - name: IUT (Isfahan University of Technology)
+    url: https://repo.iut.ac.ir/
+    description: Local mirror by Isfahan University of Technology offering broad Linux and open-source package coverage.
+    packages:
+      - Alpine
+      - Rocky Linux
+      - Debian
+      - Ubuntu
+      - Mint
+      - Arch Linux
+      - Manjaro
+      - Raspbian
+      - Fedora
+      - OpenSuse
+      - OpenBSD
+      - CTAN
