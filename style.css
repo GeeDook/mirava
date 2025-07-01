@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.min-h-svh{
+    min-height: 100svh;
+}
+.w-full{
+    width: 100%;
+}
+.bg-neutral-900 {
+    background-color: rgb(23,23,23);
+}
+.text-white{
+    color: rgb(255, 255, 255);
+}
+.flex{
+    display: flex;
+} 
+.flex-col{
+    flex-direction: column;
+} 
+.items-center{
+    align-items: center;
+} 
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.title{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.caption{
+    font-size: 1.25rem;
+    text-align: center;
+    max-width: 60%;
+}
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.px-1{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.gap-1{
+    gap: 1rem;
+}
+.mt-1{
+    margin-top: 1.5rem;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.box{
+    max-width: 18rem;
+    text-align: center;
+    border: 3px #00b7ff solid;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border-radius: 0.75rem;
+    color: #131313;
+    transform: translateY(0);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.box p{
+    margin-top: 10px;
+}
+.box span{
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: 600;
+}
+.box ul{
+    list-style: none;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.box ul li{
+    margin-top: 1px;
+}
+.box a button{
+    margin-top: 10px;
+    color: #0004ff;
+    background-color: #0004ff2a;
+    padding: 5px 7px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+.box a button:hover{
+    background-color: #0004ff3b;
+}
+.footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+a{
+    color: #00b7ff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 750px) {
+    .caption {
+        max-width: 90%;
+    }
+}
