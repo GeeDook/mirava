@@ -1,13 +1,4 @@
 mirrors:
-  - name: Iranrepo
-    url: https://iranrepo.ir/repo
-    description: A local mirror providing various Linux package repositories inside Iran.
-    packages:
-      - Debian
-      - Ubuntu
-      - Arch Linux
-      - PyPI
-
   - name: KubarCloud
     url: https://mirrors.kubarcloud.com/
     description: Public software mirror hosted by Kubar Cloud, with wide package coverage.
