@@ -30,7 +30,6 @@
 
 | میرور (لینک) | توضیحات | پکیج‌های پوشش داده‌شده |
 |--------------|----------|--------------------------|
-| [iranrepo.ir](https://iranrepo.ir/repo) | پروژه ملی مخازن متن‌باز ایران با پشتیبانی رسمی | بسته‌های Conda، پایتون (Python wheels)، برخی مخازن توزیع‌ها مانند Linux Mint |
 | [mirror.shatel.ir](https://mirror.shatel.ir/) | میرور رسمی اوبونتو | مخازن اوبونتو، دبیان، کالی و فایل‌های نصب‌کننده |
 | [mirrors.kubarcloud.com](https://mirrors.kubarcloud.com/linux/) | میرور داخلی کوبار با پشتیبانی | سورس کرنل لینوکس و آرشیوهای متن‌باز متنوع |
 | [repo-portal.ito.gov.ir](https://repo-portal.ito.gov.ir/repo/) | نگهداری شده توسط سازمان فناوری اطلاعات ایران | مخازن YUM/DNF برای CentOS، Fedora، Rocky، مخازن Python، npm، Yarn و … |
