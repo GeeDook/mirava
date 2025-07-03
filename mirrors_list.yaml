@@ -1,13 +1,4 @@
 mirrors:
-  - name: Iranrepo
-    url: https://iranrepo.ir/repo
-    description: A local mirror providing various Linux package repositories inside Iran.
-    packages:
-      - Debian
-      - Ubuntu
-      - Arch Linux
-      - PyPI
-
   - name: KubarCloud
     url: https://mirrors.kubarcloud.com/
     description: Public software mirror hosted by Kubar Cloud, with wide package coverage.
@@ -61,6 +52,22 @@ mirrors:
       - Arch Linux
       - PyPI
       - Homebrew
+  - name: IUT (Isfahan University of Technology)
+    url: https://repo.iut.ac.ir/
+    description: Local mirror by Isfahan University of Technology offering broad Linux and open-source package coverage.
+    packages:
+      - Alpine
+      - Rocky Linux
+      - Debian
+      - Ubuntu
+      - Mint
+      - Arch Linux
+      - Manjaro
+      - Raspbian
+      - Fedora
+      - OpenSuse
+      - OpenBSD
+      - CTAN
   - name: HamDocker
     url: https://hub.hamdocker.ir
     description: Docker containers without sanctions

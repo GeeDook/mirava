@@ -30,13 +30,14 @@
 
 | میرور (لینک) | توضیحات | پکیج‌های پوشش داده‌شده |
 |--------------|----------|--------------------------|
-| [iranrepo.ir](https://iranrepo.ir/repo) | پروژه ملی مخازن متن‌باز ایران با پشتیبانی رسمی | بسته‌های Conda، پایتون (Python wheels)، برخی مخازن توزیع‌ها مانند Linux Mint |
 | [mirror.shatel.ir](https://mirror.shatel.ir/) | میرور رسمی اوبونتو | مخازن اوبونتو، دبیان، کالی و فایل‌های نصب‌کننده |
 | [mirrors.kubarcloud.com](https://mirrors.kubarcloud.com/linux/) | میرور داخلی کوبار با پشتیبانی | سورس کرنل لینوکس و آرشیوهای متن‌باز متنوع |
 | [repo-portal.ito.gov.ir](https://repo-portal.ito.gov.ir/repo/) | نگهداری شده توسط سازمان فناوری اطلاعات ایران | مخازن YUM/DNF برای CentOS، Fedora، Rocky، مخازن Python، npm، Yarn و … |
 | [jamko.ir](https://jamko.ir/) | ارائه مستندات و نمونه‌های کانفیگ برای استفاده آسان‌تر | مخازن Maven، Gradle، Android SDK، APT، RPM، NuGet، Yarn، Composer، pip |
-| [runflare.com/mirrors](https://runflare.com/mirrors/) | دارای راهنمای ساده و آپدیت خودکار روزانه | Composer/Packagist، PyPI، npm، Node.js، رجیستری Docker |
-[hub.hamdocker.ir](https://hub.hamdocker.ir) | داکر ریجستری | Docker Registry |
+| [runflare.com/mirrors](https://runflare.com/mirrors/) | دارای راهنمای ساده و آپدیت خودکار روزانه | Composer/Packagist، PyPI، npm، Node.js |
+| [hub.hamdocker.ir](https://hub.hamdocker.ir) | داکر ریجستری | Docker Registry |
+| [repo.iut.ac.ir](https://repo.iut.ac.ir/) | میرور جامع دانشگاه صنعتی اصفهان با پوشش گسترده توزیع‌های لینوکسی و پروژه‌های متن‌باز | توزیع‌های Debian، Ubuntu، Mint، Arch Linux، Manjaro، Raspbian، Alpine، Rocky Linux، Fedora، OpenSUSE، OpenBSD و مخازن CTAN |
+
 
 ---
 
