@@ -52,7 +52,6 @@ mirrors:
       - Arch Linux
       - PyPI
       - Homebrew
-
   - name: IUT (Isfahan University of Technology)
     url: https://repo.iut.ac.ir/
     description: Local mirror by Isfahan University of Technology offering broad Linux and open-source package coverage.
@@ -69,3 +68,10 @@ mirrors:
       - OpenSuse
       - OpenBSD
       - CTAN
+  - name: HamDocker
+    url: https://hub.hamdocker.ir
+    description: Docker containers without sanctions
+    packages:
+      - Docker Registry
+
+  
