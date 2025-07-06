@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
     <title>Mirava</title>
 </head>
+
 <body>
-    <div class="min-h-svh w-full bg-neutral-900 text-white flex flex-col items-center justify-between px-1 py-1">
-        <div class="flex flex-col items-center justify-center">
+    <div class="starsbg">
+        <div class="stars"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+    </div>
+    <div class="main">
+        <div class="header">
             <h1 class="title" id="title"></h1>
             <p class="caption" id="caption">
             </p>
         </div>
-        <div class="flex items-center justify-center px-1 gap-1 mt-1 flex-wrap">
-            <div class="box" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="50">
+        <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="50">
                 <h3>Iranrepo</h3>
                 <p>A local mirror providing various Linux package repositories inside Iran.</p>
                 <span>Packages:</span>
@@ -35,7 +45,7 @@
                     </button>
                 </a>
             </div>
-            <div class="box" data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos-delay="100">
+            <div class="box" data-aos="flip-up" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <h3>KubarCloud</h3>
                 <p>Public software mirror hosted by Kubar Cloud, with wide package coverage.</p>
                 <span>Packages:</span>
@@ -54,7 +64,7 @@
                     </button>
                 </a>
             </div>
-            <div class="box" data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-out-sine" data-aos-delay="150">
+            <div class="box" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-out-sine" data-aos-delay="50">
                 <h3>Shatel</h3>
                 <p>Official mirror provided by the Iranian ISP Shatel.</p>
                 <span>Packages:</span>
@@ -72,7 +82,7 @@
                     </button>
                 </a>
             </div>
-            <div class="box" data-aos="flip-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="50">
+            <div class="box" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <h3>ITO</h3>
                 <p>Government-backed repository portal by the Information Technology Organization of Iran.</p>
                 <span>Packages:</span>
@@ -89,7 +99,7 @@
                     </button>
                 </a>
             </div>
-            <div class="box" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-back" data-aos-delay="100">
+            <div class="box" data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-in-back" data-aos-delay="50">
                 <h3>Jamko</h3>
                 <p>Public software mirror service for various Linux and developer ecosystems.</p>
                 <span>Packages:</span>
@@ -106,7 +116,7 @@
                     </button>
                 </a>
             </div>
-            <div class="box" data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-delay="150">
+            <div class="box" data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-delay="100">
                 <h3>Runflare</h3>
                 <p>High-speed domestic mirror service for popular developer tools and package managers.</p>
                 <span>Packages:</span>
@@ -126,11 +136,9 @@
             </div>
         </div>
         <div class="footer">
-            <p>By 
-                <a href="//github.com/GeeDook" target="_blank" rel="noopener noreferrer">Shayan GeeDook</a>
-                ,
-                <a href="//github.com/ArmanTaheriGhaleTaki" target="_blank" rel="noopener noreferrer">Arman Taheri</a>
-                and
+            <p>By
+                <a href="//github.com/GeeDook" target="_blank" rel="noopener noreferrer">Shayan GeeDook</a> ,
+                <a href="//github.com/ArmanTaheriGhaleTaki" target="_blank" rel="noopener noreferrer">Arman Taheri</a> and
                 <a href="//github.com/imdanieldev" target="_blank" rel="noopener noreferrer">Danial Nasr</a>
             </p>
         </div>
@@ -141,4 +149,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>
