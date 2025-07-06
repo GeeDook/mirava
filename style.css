@@ -69,11 +69,11 @@
     background-color: #FFFFFF;
     border-radius: 0.75rem;
     color: #131313;
-    transform: translateY(0);
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.box:hover{
-    transform: translateY(-5px);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .box h3{
     font-size: 1.5rem;
