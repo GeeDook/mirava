@@ -2,13 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-.open-sans {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
 }
 .min-h-svh{
     min-height: 100svh;
@@ -38,12 +35,13 @@
     justify-content: space-between;
 }
 .title{
-    font-weight: 800;
     font-size: 3rem;
+    font-weight: 900;
 }
 .caption{
     font-size: 1.25rem;
     text-align: center;
+    font-weight: 300;
     max-width: 60%;
 }
 .py-1{
@@ -71,15 +69,15 @@
     background-color: #FFFFFF;
     border-radius: 0.75rem;
     color: #131313;
-    transform: translateY(0);
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.box:hover{
-    transform: translateY(-5px);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .box h3{
-    font-weight: 600;
     font-size: 1.5rem;
+    font-weight: 700;
     color: #000000;
 }
 .box p{
@@ -112,20 +110,30 @@
     font-size: 1rem;
     border: none;
     border-radius: 0.25rem;
+    font-weight: 500;
 }
 .box a button:hover{
     background-color: #0004ff3b;
 }
 .footer{
     text-align: center;
+    font-size: 1.25rem;
     margin-top: 1rem;
 }
 a{
     color: #00b7ff;
     text-decoration: none;
+    font-weight: 500;
 }
 @media only screen and (max-width: 750px) {
     .caption {
-        max-width: 90%;
+        max-width: 95%;
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .footer{
+        font-size: 1rem;
     }
 }
