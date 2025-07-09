@@ -37,6 +37,7 @@
 | [runflare.com/mirrors](https://runflare.com/mirrors/) | دارای راهنمای ساده و آپدیت خودکار روزانه | Composer/Packagist، PyPI، npm، Node.js |
 | [hub.hamdocker.ir](https://hub.hamdocker.ir) | داکر ریجستری | Docker Registry |
 | [repo.iut.ac.ir](https://repo.iut.ac.ir/) | میرور جامع دانشگاه صنعتی اصفهان با پوشش گسترده توزیع‌های لینوکسی و پروژه‌های متن‌باز | توزیع‌های Debian، Ubuntu، Mint، Arch Linux، Manjaro، Raspbian، Alpine، Rocky Linux، Fedora، OpenSUSE، OpenBSD و مخازن CTAN |
+| [maven.myket.ir](https://maven.myket.ir/) | میرور جامعی از مخازن کتابخانه های اندرویدی شامل mavenCentral - googleMaven - Jitpack | Android sdk - android maven central - android jitpack - android googleMaven |
 
 
 ---
