@@ -73,5 +73,12 @@ mirrors:
     description: Docker containers without sanctions
     packages:
       - Docker Registry
+  - name: Myket
+    url: https://maven.myket.ir/
+    description: Android maven repository
+    packages:
+      - Maven (google)
+      - Maven (jitpack)
+      - Maven (maven central)
 
   
