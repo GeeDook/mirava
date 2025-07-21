@@ -81,4 +81,14 @@ mirrors:
       - Maven (jitpack)
       - Maven (maven central)
 
-  
+  - name: Arvancloud
+    url: https://www.arvancloud.ir/en/dev/linux-repository
+    description: Most up-to-date versions of GNU/Linux repositories on Arvancloud mirror servers
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
+      - Alpine
+      - Arch Linux
+      - OpenSUSE
+      - Manjaro
