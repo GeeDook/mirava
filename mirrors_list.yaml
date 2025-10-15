@@ -92,3 +92,11 @@ mirrors:
       - Arch Linux
       - OpenSUSE
       - Manjaro
+
+  - name: IranServer
+    url: https://mirror.iranserver.com/
+    description: IranServer mirror
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
