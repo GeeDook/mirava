@@ -40,6 +40,7 @@
 | [maven.myket.ir](https://maven.myket.ir/) | میرور جامعی از مخازن کتابخانه های اندرویدی شامل mavenCentral - googleMaven - Jitpack | Android sdk - android maven central - android jitpack - android googleMaven |
 | [arvancloud.ir/dev/linux-repository](https://www.arvancloud.ir/en/dev/linux-repository) | میرور داخلی و پرسرعت از ریپازیتوری‌های محبوب‌ترین توزیع‌های گنو/لینوکس بر روی سرورهای ابر آروان| Debian, Ubuntu, CentOS, Alpine, Arch Linux, OpenSUSE, Manjaro |
 | [mirror.iranserver.com](https://mirror.iranserver.com) |  میرور های داخلی پر سرعت بر روی سرور های ایران سرور | Debian, Ubuntu, CentOS |
+| [mirror.mobinhost.com](https://mirror.mobinhost.com) |  میرور های داخلی پر سرعت بر روی سرور های مبین هاست | FreeBSD, Almalinux, Alpine, Archlinux, Debian, Fedora EPEL, Fedora, Manjaro, MariaDB, MongoDB, Raspbian, Ubuntu, Zabbix |
 ---
 
 ## 🧪 دربارهٔ اسکریپت check_mirrors.sh
