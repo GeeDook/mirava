@@ -100,3 +100,27 @@ mirrors:
       - Debian
       - Ubuntu
       - CentOS
+
+  - name: MobinHost
+    url: https://docker.mobinhost.com
+    description: Docker containers without sanctions
+    packages:
+      - Docker Registry
+
+  - name: MobinHost
+    url: https://mirror.mobinhost.com/
+    description: MobinHost mirror
+    packages:
+      - FreeBSD
+      - Almalinux
+      - Alpine
+      - Archlinux
+      - Debian
+      - Fedora EPEL
+      - Fedora
+      - Manjaro
+      - MariaDB
+      - MongoDB
+      - Raspbian
+      - Ubuntu
+      - Zabbix
