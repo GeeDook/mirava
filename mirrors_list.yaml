@@ -113,6 +113,12 @@ mirrors:
     packages:
       - Docker Registry
 
+  - name: Focker
+    url: https://focker.ir
+    description: A docker registry mirror
+    packages:
+      - Docker Registry
+
   - name: MobinHost
     url: https://mirror.mobinhost.com/
     description: MobinHost mirror
