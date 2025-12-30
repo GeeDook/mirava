@@ -107,6 +107,12 @@ mirrors:
     packages:
       - Docker Registry
 
+  - name: Arvancloud
+    url: https://www.arvancloud.ir/fa/dev/docker
+    description: Docker registry mirror in iran hosted by Arvancloud
+    packages:
+      - Docker Registry
+
   - name: MobinHost
     url: https://mirror.mobinhost.com/
     description: MobinHost mirror
