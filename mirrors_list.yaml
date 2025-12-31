@@ -136,3 +136,13 @@ mirrors:
       - Raspbian
       - Ubuntu
       - Zabbix
+
+  - name: EN Mirror
+    url: https://en-mirror.ir
+    description: Android/Gradle maven repository
+    packages:
+      - Maven (google)
+      - Maven (jitpack)
+      - Maven (maven central)
+      - Others (Can be added)
+
