@@ -139,7 +139,7 @@ mirrors:
 
   - name: EN Mirror
     url: https://en-mirror.ir
-    description: Gradle maven repository
+    description: Android/Gradle maven repository
     packages:
       - Maven (google)
       - Maven (jitpack)
