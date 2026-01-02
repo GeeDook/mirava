@@ -43,7 +43,7 @@
 | [docker.mobinhost.com](https://docker.mobinhost.com) | داکر ریجستری | Docker Registry |
 | [mirror.mobinhost.com](https://mirror.mobinhost.com) |  میرور های داخلی پر سرعت بر روی سرور های مبین هاست | FreeBSD, Almalinux, Alpine, Archlinux, Debian, Fedora EPEL, Fedora, Manjaro, MariaDB, MongoDB, Raspbian, Ubuntu, Zabbix |
 | [arvancloud.ir/fa/dev/docker](https://www.arvancloud.ir/fa/dev/docker) | میرور داخلی برای داکر | Docker Registry
-| [focker.ir](https://www.arvancloud.ir/fa/dev/docker) | میرور داخلی برای داکر | Docker Registry
+| [focker.ir](https://focker.ir/) | میرور داخلی برای داکر | Docker Registry
 | [mirror.kernel.ir](https://mirror.kernel.ir/) | میرور داخلی و پرسرعت از ریپازیتوری‌های محبوب‌ترین توزیع‌های گنو/لینوکس | Debian, Ubuntu, AlmaLinux, Alpine, Fedora, Manjaro, FreeBSD, VMWare, Zabbix, MariaDB, MongoDB
 | [docker.kernel.ir](https://docker.kernel.ir) | داکر رجیستری | Docker Registry
 ---
