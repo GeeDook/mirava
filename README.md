@@ -28,24 +28,25 @@
 
 ## میرورهای رسمی داخل ایران
 
-| میرور (لینک) | توضیحات | پکیج‌های پوشش داده‌شده |
-|--------------|----------|--------------------------|
-| [mirror.shatel.ir](https://mirror.shatel.ir/) | میرور رسمی اوبونتو | مخازن اوبونتو، دبیان، کالی و فایل‌های نصب‌کننده |
-| [mirrors.kubarcloud.com](https://mirrors.kubarcloud.com/) | میرور داخلی کوبار با پشتیبانی | سورس کرنل لینوکس و آرشیوهای متن‌باز متنوع |
-| [repo-portal.ito.gov.ir](https://repo-portal.ito.gov.ir/repo/) | نگهداری شده توسط سازمان فناوری اطلاعات ایران | مخازن YUM/DNF برای CentOS، Fedora، Rocky، مخازن Python، npm، Yarn و … |
-| [jamko.ir](https://jamko.ir/) | ارائه مستندات و نمونه‌های کانفیگ برای استفاده آسان‌تر | مخازن Maven، Gradle، Android SDK، APT، RPM، NuGet، Yarn، Composer، pip |
-| [runflare.com/mirrors](https://runflare.com/mirrors/) | دارای راهنمای ساده و آپدیت خودکار روزانه | Composer/Packagist، PyPI، npm، Node.js |
-| [hub.hamdocker.ir](https://hub.hamdocker.ir) | داکر ریجستری | Docker Registry |
-| [repo.iut.ac.ir](https://repo.iut.ac.ir/) | میرور جامع دانشگاه صنعتی اصفهان با پوشش گسترده توزیع‌های لینوکسی و پروژه‌های متن‌باز | توزیع‌های Debian، Ubuntu، Mint، Arch Linux، Manjaro، Raspbian، Alpine، Rocky Linux، Fedora، OpenSUSE، OpenBSD و مخازن CTAN |
-| [maven.myket.ir](https://maven.myket.ir/) | میرور جامعی از مخازن کتابخانه های اندرویدی شامل mavenCentral - googleMaven - Jitpack | Android sdk - android maven central - android jitpack - android googleMaven |
-| [arvancloud.ir/dev/linux-repository](https://www.arvancloud.ir/en/dev/linux-repository) | میرور داخلی و پرسرعت از ریپازیتوری‌های محبوب‌ترین توزیع‌های گنو/لینوکس بر روی سرورهای ابر آروان| Debian, Ubuntu, CentOS, Alpine, Arch Linux, OpenSUSE, Manjaro |
-| [mirror.iranserver.com](https://mirror.iranserver.com) |  میرور های داخلی پر سرعت بر روی سرور های ایران سرور | Debian, Ubuntu, CentOS |
-| [docker.mobinhost.com](https://docker.mobinhost.com) | داکر ریجستری | Docker Registry |
-| [mirror.mobinhost.com](https://mirror.mobinhost.com) |  میرور های داخلی پر سرعت بر روی سرور های مبین هاست | FreeBSD, Almalinux, Alpine, Archlinux, Debian, Fedora EPEL, Fedora, Manjaro, MariaDB, MongoDB, Raspbian, Ubuntu, Zabbix |
-| [arvancloud.ir/fa/dev/docker](https://www.arvancloud.ir/fa/dev/docker) | میرور داخلی برای داکر | Docker Registry
-| [focker.ir](https://focker.ir/) | میرور داخلی برای داکر | Docker Registry
-| [mirror.kernel.ir](https://mirror.kernel.ir/) | میرور داخلی و پرسرعت از ریپازیتوری‌های محبوب‌ترین توزیع‌های گنو/لینوکس | Debian, Ubuntu, AlmaLinux, Alpine, Fedora, Manjaro, FreeBSD, VMWare, Zabbix, MariaDB, MongoDB
-| [docker.kernel.ir](https://docker.kernel.ir) | داکر رجیستری | Docker Registry
+| میرور (لینک)                                                                            | توضیحات                                                                                         | پکیج‌های پوشش داده‌شده |
+|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------|
+| [mirror.shatel.ir](https://mirror.shatel.ir/)                                           | میرور رسمی اوبونتو                                                                              | مخازن اوبونتو، دبیان، کالی و فایل‌های نصب‌کننده |
+| [mirrors.kubarcloud.com](https://mirrors.kubarcloud.com/)                               | میرور داخلی کوبار با پشتیبانی                                                                   | سورس کرنل لینوکس و آرشیوهای متن‌باز متنوع |
+| [repo-portal.ito.gov.ir](https://repo-portal.ito.gov.ir/repo/)                          | نگهداری شده توسط سازمان فناوری اطلاعات ایران                                                    | مخازن YUM/DNF برای CentOS، Fedora، Rocky، مخازن Python، npm، Yarn و … |
+| [jamko.ir](https://jamko.ir/)                                                           | ارائه مستندات و نمونه‌های کانفیگ برای استفاده آسان‌تر                                           | مخازن Maven، Gradle، Android SDK، APT، RPM، NuGet، Yarn، Composer، pip |
+| [runflare.com/mirrors](https://runflare.com/mirrors/)                                   | دارای راهنمای ساده و آپدیت خودکار روزانه                                                        | Composer/Packagist، PyPI، npm، Node.js |
+| [hub.hamdocker.ir](https://hub.hamdocker.ir)                                            | داکر ریجستری                                                                                    | Docker Registry |
+| [repo.iut.ac.ir](https://repo.iut.ac.ir/)                                               | میرور جامع دانشگاه صنعتی اصفهان با پوشش گسترده توزیع‌های لینوکسی و پروژه‌های متن‌باز            | توزیع‌های Debian، Ubuntu، Mint، Arch Linux، Manjaro، Raspbian، Alpine، Rocky Linux، Fedora، OpenSUSE، OpenBSD و مخازن CTAN |
+| [maven.myket.ir](https://maven.myket.ir/)                                               | میرور جامعی از مخازن کتابخانه های اندرویدی شامل mavenCentral - googleMaven - Jitpack            | Android sdk - android maven central - android jitpack - android googleMaven |
+| [arvancloud.ir/dev/linux-repository](https://www.arvancloud.ir/en/dev/linux-repository) | میرور داخلی و پرسرعت از ریپازیتوری‌های محبوب‌ترین توزیع‌های گنو/لینوکس بر روی سرورهای ابر آروان | Debian, Ubuntu, CentOS, Alpine, Arch Linux, OpenSUSE, Manjaro |
+| [mirror.iranserver.com](https://mirror.iranserver.com)                                  | میرور های داخلی پر سرعت بر روی سرور های ایران سرور                                              | Debian, Ubuntu, CentOS |
+| [docker.mobinhost.com](https://docker.mobinhost.com)                                    | داکر ریجستری                                                                                    | Docker Registry |
+| [mirror.mobinhost.com](https://mirror.mobinhost.com)                                    | میرور های داخلی پر سرعت بر روی سرور های مبین هاست                                               | FreeBSD, Almalinux, Alpine, Archlinux, Debian, Fedora EPEL, Fedora, Manjaro, MariaDB, MongoDB, Raspbian, Ubuntu, Zabbix |
+| [arvancloud.ir/fa/dev/docker](https://www.arvancloud.ir/fa/dev/docker)                  | میرور داخلی برای داکر                                                                           | Docker Registry
+| [focker.ir](https://focker.ir/)                                                         | میرور داخلی برای داکر                                                                           | Docker Registry
+| [en-mirror.ir](https://en-mirror.ir)                                                    | میرور جامعی برای گریدل، متشکل مخازن کتابخانه های اندرویدی شامل Maven Central - Google - Jitpack | Google - Maven Central - Jitpack - Others(Can be added)
+| [docker.kernel.ir](https://docker.kernel.ir)                                            | داکر رجیستری                                                                                  | Docker Registry
+
 ---
 
 ## 🧪 دربارهٔ اسکریپت check_mirrors.sh
