@@ -43,8 +43,10 @@
 | [docker.mobinhost.com](https://docker.mobinhost.com)                                    | داکر ریجستری                                                                                    | Docker Registry |
 | [mirror.mobinhost.com](https://mirror.mobinhost.com)                                    | میرور های داخلی پر سرعت بر روی سرور های مبین هاست                                               | FreeBSD, Almalinux, Alpine, Archlinux, Debian, Fedora EPEL, Fedora, Manjaro, MariaDB, MongoDB, Raspbian, Ubuntu, Zabbix |
 | [arvancloud.ir/fa/dev/docker](https://www.arvancloud.ir/fa/dev/docker)                  | میرور داخلی برای داکر                                                                           | Docker Registry
-| [focker.ir](https://www.arvancloud.ir/fa/dev/docker)                                    | میرور داخلی برای داکر                                                                           | Docker Registry
+| [focker.ir](https://focker.ir/)                                                         | میرور داخلی برای داکر                                                                           | Docker Registry
 | [en-mirror.ir](https://en-mirror.ir)                                                    | میرور جامعی برای گریدل، متشکل مخازن کتابخانه های اندرویدی شامل Maven Central - Google - Jitpack | Google - Maven Central - Jitpack - Others(Can be added)
+| [docker.kernel.ir](https://docker.kernel.ir)                                            | داکر رجیستری                                                                                  | Docker Registry
+
 ---
 
 ## 🧪 دربارهٔ اسکریپت check_mirrors.sh
