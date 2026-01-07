@@ -46,6 +46,7 @@
 | [focker.ir](https://focker.ir/)                                                         | میرور داخلی برای داکر                                                                           | Docker Registry
 | [en-mirror.ir](https://en-mirror.ir)                                                    | میرور جامعی برای گریدل، متشکل مخازن کتابخانه های اندرویدی شامل Maven Central - Google - Jitpack | Google - Maven Central - Jitpack - Others(Can be added)
 | [docker.kernel.ir](https://docker.kernel.ir)                                            | داکر رجیستری                                                                                  | Docker Registry
+| [https://terraform.peaker.info/](https://terraform.peaker.info/)                        | پروکسی رسمی Terraform                                                                       | Terraform Proxy
 
 ---
 
