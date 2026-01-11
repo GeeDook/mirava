@@ -145,4 +145,9 @@ mirrors:
       - Maven (jitpack)
       - Maven (maven central)
       - Others (Can be added)
-
+      
+  - name: Ferdowsi University of Mashhad
+    url: https://cran.um.ac.ir/
+    description: The Comprehensive R Archive Network (CRAN)
+    packages:
+      - R
