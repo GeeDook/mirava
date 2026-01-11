@@ -50,6 +50,7 @@
 | [afranet.com](http://mirror.afranet.com)                                     | میرور توزیع های گنو/لینوکس                                                                          | Debian, Ubuntu, CentOS
 | [pishgaman.net](https://ubuntu.pishgaman.net)                        |  میرور اوبونتو                                                                        | Ubuntu
 | [pardisco.co](https://mirrors.pardisco.co)                        |  میرور های جامع گنو/لینوکسی و پکیج های برنامه نویسی                                                                        | Ubuntu, Debian، CentOs, Alpine, PyPI, NPM, Go, NuGet, Docker Registry, OmniOS, PkgSrc
+| [cran.um.ac.ir](https://cran.um.ac.ir)                        |  میرور پکیچ های R                                                                        | CRAN
 
 ---
 
