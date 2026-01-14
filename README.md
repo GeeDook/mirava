@@ -59,6 +59,7 @@
 | [mirror.digitalvps.ir](https://mirror.digitalvps.ir/ubuntu)                        |  میرور اوبونتو                                                                        | Ubuntu
 | [ir.ubuntu.sindad.cloud](https://ir.ubuntu.sindad.cloud)                        |  میرور اوبونتو                                                                        | Ubuntu
 | [mirror.faraso.org](http://mirror.faraso.org)                        |  میرور های CentOS, EPEL ,Virtz, Webscript و نرم افزارهای کروم و جاوا                                                                         | CentOS, EPEL, Virtz, Webscript, Chrom, Java_Runtime, Java Dev, Java_SE8
+| [chat.shhh.ir](https://chat.shhh.ir/dl)                        |  میرور دلتاچت                                                                        | DeltaChat
 
 ---
 
