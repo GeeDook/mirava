@@ -61,6 +61,7 @@
 | [mirror.faraso.org](http://mirror.faraso.org)                        |  میرور های CentOS, EPEL ,Virtz, Webscript و نرم افزارهای کروم و جاوا                                                                         | CentOS, EPEL, Virtz, Webscript, Chrom, Java_Runtime, Java Dev, Java_SE8
 | [chat.shhh.ir](https://chat.shhh.ir/dl)                        |  میرور دلتاچت                                                                        | DeltaChat
 | [atlanticscloud.ir](https://mirror.atlantiscloud.ir/)                        |  میرور داکر رجیستری و اوبونتو                                                                        | Ubuntu, Docker Registry
+| [chabokan.ir](https://iran.chabokan.net/)                        |  میرور سرویس پکیج‌های برنامه‌نویسی                                                                         | NPM, Python, PHP, Docker, NuGet
 
 
 ---
