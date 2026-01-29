@@ -63,6 +63,8 @@
 | [atlanticscloud.ir](https://mirror.atlantiscloud.ir/)                        |  میرور داکر رجیستری و اوبونتو                                                                        | Ubuntu, Docker Registry
 | [chabokan.ir](https://iran.chabokan.net/)                        |  میرور سرویس پکیج‌های برنامه‌نویسی                                                                         | NPM, Python, PHP, Docker, NuGet
 | [abrha.net](https://repo.abrha.net/)                        |  میرورهای سیستم عامل گنو/لینوکسی                                                                          | Ubuntu, Almalinux, Debian, EPEL, ProxMox, Avast, Clamav
+| [parsdev.com](https://mirror.parsdev.com/)                        |  میرور توزیع های گنو/لینوکسی                                                                        | Ubuntu, Almalinux, Debian
+
 
 
 ---
